@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
-    private const val BASE_URL = "https://inventorygateway.intalalab.net"
+    private const val BASE_URL = "API-URL"
 
     val apiService: ApiService by lazy {
         val retrofit = Retrofit.Builder()
